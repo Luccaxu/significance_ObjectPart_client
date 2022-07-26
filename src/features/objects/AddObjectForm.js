@@ -6,6 +6,7 @@ import { TextField, Typography, Box, Button } from '@mui/material';
 import { objectAdded } from './objectsSlice';
 import { selectAllUsers } from '../users/usersSlice';
 
+//I am stupid and don't know how to write legitimate code.
 const AddObjectForm = () => {
     const dispatch = useDispatch();
     const [name, setName] = useState('')
